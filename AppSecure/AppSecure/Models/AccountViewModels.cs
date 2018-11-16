@@ -8,6 +8,8 @@ namespace AppSecure.Models
         [Required]
         [Display(Name = "Correo electrónico")]
         public string Email { get; set; }
+
+       
     }
 
     public class ExternalLoginListViewModel
